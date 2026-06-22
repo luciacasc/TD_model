@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: td-coupling-model
+Version: 0.1.0
+Summary: Transition density coupling model for molecule–plasmon systems (cube-based FFT Coulomb solver).
+Author-email: Lucia Cascino <lucia.cascino@unisalento.it>
+Maintainer-email: Lucia Cascino <lucia.cascino@unisalento.it>
+License: GNU General Public License v3.0 or later (GPLv3+)
+Project-URL: Homepage, https://github.com/TUO-USER/TD_coupling_model
+Project-URL: Repository, https://github.com/TUO-USER/TD_coupling_model
+Project-URL: Issues, https://github.com/TUO-USER/TD_coupling_model/issues
+Keywords: quantum-chemistry,plasmonics,transition-density,cube-files,FFT,coupling
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.23
+Requires-Dist: scipy>=1.10
+Requires-Dist: periodictable>=2.1.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Dynamic: license-file

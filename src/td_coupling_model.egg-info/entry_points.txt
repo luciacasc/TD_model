@@ -1,0 +1,6 @@
+[console_scripts]
+tdcoupling-align = tdcouplingmodel.cli.align_grids_cli:main
+tdcoupling-calc = tdcouplingmodel.cli.coupling_cli:main
+tdcoupling-cube2xyz = tdcouplingmodel.cli.conversion_cube_to_xyz_cli:main
+tdcoupling-rotate = tdcouplingmodel.cli.roto_translation_cli:main
+tdcoupling-sum = tdcouplingmodel.cli.sum_cubes_cli:main
