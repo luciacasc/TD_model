@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "td-coupling-model"
+version = "0.1.0"
+description = "Transition density coupling model for molecule–plasmon systems (cube-based FFT Coulomb solver)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GNU General Public License v3.0 or later (GPLv3+)" }
+
+authors = [
+  { name = "Lucia Cascino", email = "lucia.cascino@unisalento.it" }
+]
+maintainers = [
+  { name = "Lucia Cascino", email = "lucia.cascino@unisalento.it" }
+]
+
+keywords = [
+  "quantum-chemistry",
+  "plasmonics",
+  "transition-density",
+  "cube-files",
+  "FFT",
+  "coupling",
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.10",
+  "periodictable>=2.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7",
+  "pytest-cov",
+  "ruff",
+]
+
+[project.urls]
+Homepage = "https://github.com/TUO-USER/TD_coupling_model"
+Repository = "https://github.com/TUO-USER/TD_coupling_model"
+Issues = "https://github.com/TUO-USER/TD_coupling_model/issues"
+
+[project.scripts]
+tdcoupling-cube2xyz = "tdcouplingmodel.cli.conversion_cube_to_xyz_cli:main"
+tdcoupling-rotate   = "tdcouplingmodel.cli.roto_translation_cli:main"
+tdcoupling-align    = "tdcouplingmodel.cli.align_grids_cli:main"
+tdcoupling-calc     = "tdcouplingmodel.cli.coupling_cli:main"
+tdcoupling-sum      = "tdcouplingmodel.cli.sum_cubes_cli:main"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tdcouplingmodel*"]
