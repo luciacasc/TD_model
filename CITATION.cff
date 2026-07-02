@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TD Coupling Model"
+version: 1.0.0
+doi: 
+date-released: 2026-07-02
+authors:
+  - family-names: Cascino
+    given-names: Lucia
+    email: lucia.cascino@unisalento.it
+repository-code: "https://github.com/luciacasc/TD_model"
+license: GPL-3.0-or-later
+keywords:
+  - polaritons
+  - transition densities
+  - strong coupling
+  - plasmonics
+  - quantum chemistry
