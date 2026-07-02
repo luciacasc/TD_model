@@ -1,6 +1,8 @@
 # TD Coupling Model
-
 **A Python package for computing electromagnetic coupling between molecular and plasmonic excitations using transition densities and an FFT-based Coulomb solver.**
+
+[![DOI](https://zenodo.org/badge/1276613619.svg)](https://doi.org/10.5281/zenodo.21132284)
+
 
 `td-coupling-model` builds and diagonalizes the polariton Hamiltonian of coupled molecule–plasmon systems, enabling quantitative analysis of strong-coupling effects such as Rabi splitting and hybrid polariton states. Transition densities must be provided as Gaussian `.cube` files, as typically produced by TDDFT calculations.
 
