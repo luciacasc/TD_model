@@ -298,4 +298,4 @@ GNU General Public License v3.0 or later (GPLv3+). See `LICENSE` for details.
 ## Contact
 
 Lucia Cascino – lucia.cascino@unisalento.it  
-Issues: https://github.com/luciacasc/TD_coupling_model/issues
+Issues: https://github.com/luciacasc/TD_model/issues
