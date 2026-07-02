@@ -13,8 +13,8 @@ The coupling between a molecular electronic transition and a plasmonic excitatio
 $$
 H =
 \begin{pmatrix}
-\omega_\text{mol} & 2g \\
-2g & \omega_\text{plas}
+\omega_\text{mol} & g \\
+g & \omega_\text{plas}
 \end{pmatrix}
 $$
 
@@ -23,12 +23,12 @@ which generalizes, for $N_m$ molecules and $N_p$ plasmons, to a block matrix:
 $$
 H =
 \begin{pmatrix}
-H_\text{mol} & 2\,g \\
-2\,g^T & H_\text{plas}
+H_\text{mol} & g \\
+g^T & H_\text{plas}
 \end{pmatrix}
 $$
 
-where $H_\text{mol}$ and $H_\text{plas}$ contain the bare excitation energies on the diagonal and the molecule–molecule ($V_{ij}$) or plasmon–plasmon ($J_{ij}$) couplings as off-diagonal terms. The factor of 2 follows the TDDFT Hamiltonian convention.
+where $H_\text{mol}$ and $H_\text{plas}$ contain the bare excitation energies on the diagonal and the molecule–molecule ($V_{ij}$) or plasmon–plasmon ($J_{ij}$) couplings as off-diagonal terms. 
 
 The coupling constant $g$ between species A and B is evaluated via the Coulomb integral over their real-space transition densities:
 
