@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "TD Coupling Model"
 version: 1.0.0
-doi: 
+doi: https://doi.org/10.5281/zenodo.21132285
 date-released: 2026-07-02
 authors:
   - family-names: Cascino
