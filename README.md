@@ -1,7 +1,7 @@
 # TD Coupling Model
 
-.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.21132285.svg
-  :target: https://doi.org/10.5281/zenodo.21132285
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21132285.svg)](https://doi.org/10.5281/zenodo.21132285)
+
 
   
 **A Python package for computing electromagnetic coupling between molecular and plasmonic excitations using transition densities and an FFT-based Coulomb solver.**
